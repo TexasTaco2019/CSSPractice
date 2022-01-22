@@ -1,0 +1,147 @@
+body {
+    font-family: "Pacifico", cursive;
+    background-color: rgb(247, 241, 231);
+}
+
+
+/* In this CSS I have made examples of gradient shading and box shading and text shading for special effects */
+
+h1 {
+    text-align: center;
+    border: 5px rgb(5, 5, 5) solid;
+    color: rgb(96, 83, 61);
+    background-image: linear-gradient(white, rgb(156, 156, 197));
+    text-shadow: 2px 2px white;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.first {
+    background-image: linear-gradient(rgb(11, 214, 211), rgb(183, 229, 240));
+    text-align: center;
+    border: 5px black solid;
+    width: fit-content;
+    padding: 20px 40px;
+    /* margin-left: 35%;
+    margin-bottom: 45px; */
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(11, 67, 67);
+    box-shadow: 10px 10px 5px grey;
+}
+
+.second {
+    background-image: linear-gradient(white, red);
+    text-align: center;
+    border: 5px rgb(62, 10, 182) solid;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+    color: rgb(68, 10, 80);
+    padding: 20px;
+    margin-bottom: 40px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.coffeePicture {
+    border: 6px solid rgb(249, 78, 4);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.goingBack {
+    margin-top: 45px;
+}
+
+.list {
+    border: 5px gray solid;
+    text-align: left;
+    list-style-position: inside;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    /* background-color: rgb(230, 211, 211); */
+    background-image: linear-gradient(rgb(242, 206, 168), rgb(247, 234, 219));
+    box-shadow: 10px 10px 5px grey;
+}
+
+.explanation {
+    font-size: 30px;
+    font-style: normal;
+    border: 5px gray solid;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+    height: 100px;
+    background-color: red;
+    color: white;
+    text-shadow: 2px 2px 4px #352302;
+    background-image: radial-gradient(rgb(0, 0, 0), #e9c097);
+    box-shadow: 10px 10px 5px grey;
+}
+
+li {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.news {
+    font-family: helvetica;
+    line-height: 1.5;
+}
+
+.container {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* .faveCoffees {
+    margin-top: 40px;
+    padding-top: 40px;
+} */
+
+.coffees {
+    background-color: rgb(218, 218, 215);
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.coffeesList {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.return {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.reasons {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.coffeeDrink {
+    padding-bottom: 40px;
+}
+
+.nextPage {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+/* using a global reset at the top which is 
+* {
+  margin: 0;
+  padding: 0;
+}
+is a good idea 
+*/
