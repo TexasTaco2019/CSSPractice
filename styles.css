@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: "Pacifico", cursive;
     background-color: rgb(247, 241, 231);
@@ -50,6 +55,8 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    box-shadow: 10px 10px 5px grey;
+    margin-top: 65px;
 }
 
 .goingBack {
@@ -58,15 +65,23 @@ h1 {
 
 .list {
     border: 5px gray solid;
+    width: fit-content;
     text-align: left;
     list-style-position: inside;
     padding-top: 40px;
     padding-bottom: 40px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: 40px auto;
     /* background-color: rgb(230, 211, 211); */
     background-image: linear-gradient(rgb(242, 206, 168), rgb(247, 234, 219));
     box-shadow: 10px 10px 5px grey;
+}
+
+.item:nth-child(4) {
+    padding-right: 35px;
+}
+
+.item {
+    padding-left: 35px;
 }
 
 .explanation {
@@ -86,7 +101,6 @@ h1 {
 
 li {
     font-size: 25px;
-    text-decoration: underline;
 }
 
 .news {
@@ -96,8 +110,7 @@ li {
 
 .container {
     width: 700px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 
@@ -111,6 +124,8 @@ li {
     margin-top: 40px;
     padding-top: 40px;
     padding-bottom: 40px;
+    color: black;
+    box-shadow: 10px 10px 5px grey;
 }
 
 .coffeesList {
@@ -119,8 +134,8 @@ li {
 }
 
 .return {
-    padding-bottom: 40px;
-    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .reasons {
@@ -135,6 +150,49 @@ li {
 .nextPage {
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+
+/* Very important for control of the ANCHOR decorating--you must use link,visited,hover,active in that order as psuedo-classes */
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    background-color: #000000;
+    color: red;
+    /* display: inline-block; */
+    text-decoration: underline red;
+}
+
+a:active {
+    background-color: black;
+    font-style: italic;
+}
+
+header.faveCoffees {
+    text-align: center;
+}
+
+.myFaves {
+    padding-top: 20px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.myFaves:visited {
+    color: black;
+}
+
+.faveCoffees {
+    font-size: 35px;
 }
 
 
